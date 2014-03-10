@@ -1,0 +1,44 @@
+---
+abstract: 'Basic API client'
+author:
+  - 'Peter Stuifzand <peter@stuifzand.eu>'
+build_requires: {}
+configure_requires:
+  Module::Build: 0.38
+dynamic_config: 1
+generated_by: 'Module::Build version 0.4004, CPAN::Meta::Converter version 2.120921'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: Net-SS-Client
+provides:
+  Net::SS::Client:
+    file: lib/Net/SS/Client.pm
+    version: v0.1.0
+  Net::SS::Client::Role::Create:
+    file: lib/Net/SS/Client/Role/Create.pm
+    version: 0
+  Net::SS::Client::Role::Delete:
+    file: lib/Net/SS/Client/Role/Delete.pm
+    version: 0
+  Net::SS::Client::Role::Get:
+    file: lib/Net/SS/Client/Role/Get.pm
+    version: 0
+  Net::SS::Client::Role::List:
+    file: lib/Net/SS/Client/Role/List.pm
+    version: 0
+  Net::SS::Client::Role::Update:
+    file: lib/Net/SS/Client/Role/Update.pm
+    version: 0
+  Net::SS::Client::Test:
+    file: lib/Net/SS/Client/Test.pm
+    version: 0
+  Net::SS::Query:
+    file: lib/Net/SS/Query.pm
+    version: 0
+requires:
+  Moo: 1.002000
+resources:
+  license: http://dev.perl.org/licenses/
+version: v0.1.0

@@ -1,0 +1,7 @@
+/Net-SS-Client-*
+/.build
+/_build*
+/Build
+MYMETA.*
+!META.json
+
