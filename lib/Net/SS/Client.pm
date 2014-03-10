@@ -16,7 +16,7 @@ with qw/
     Net::SS::Client::Role::Delete
 /;
 
-our $VERSION = '0.1.0';
+our $VERSION = '0.1.1';
 
 has api_key      => (is => 'ro');
 has api_endpoint => (
